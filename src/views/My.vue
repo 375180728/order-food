@@ -9,7 +9,8 @@
         </div>
         <div class="info-item">
           <span>密码：</span>
-          <Input v-model="userInfo.upwd" type="password" password style="width: 350px"></Input>
+          <span>{{ userInfo.upwd }}</span>
+          <!-- <Input v-model="userInfo.upwd" type="password" password style="width: 350px"></Input> -->
           <!-- <Button type="primary" @click="update">修改</Button> -->
         </div>
         <div class="info-item">
@@ -30,7 +31,8 @@
         </div>
         <div class="info-item">
           <span>地址：</span>
-          <Input v-model="userInfo.address" style="width: 350px"></Input>
+          <!-- <Input v-model="userInfo.address" style="width: 350px"></Input> -->
+          <span>{{ userInfo.address }}</span>
           <!-- <Button type="primary">修改</Button> -->
         </div>   
       </div>
